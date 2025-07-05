@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="Assets/Favicons/favicon32.b64ecc03.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar flex align-center rounded-5">
+            <div class="logo flex align-center ">
+                <a href="/"><img class="invert" src="Assets/Logos/Logo.svg" alt=""></a>
+            </div>
+            <div class="nav-main-content flex align-center">
+                <div class="nav-left flex align-center">
+                    <button class="home"><img src="Assets/Icons/Home.svg" alt="" class="invert"></button>
+                    <div class="search-input p-relative flex align-center">
+                        <div class="search-btn-container p-absolute"><img src="Assets/Icons/Search.svg" alt=""></div>
+                        <input type="search" name="" id="">
+                        <div class="search-placeholder p-absolute">
+                            <span>What do you want to play?</span>
+                        </div>
+                        <div class="search-placeholder-hidden p-absolute">
+                            <span>
+                                <kbd>Ctrl</kbd>
+                                <kbd>K</kbd>
+                            </span>
+                        </div>
+                        <div class="p-absolute search-divider"></div>
+                        <div class="browse-btn-container p-absolute invert"><img src="Assets/Icons/Browse.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="search-dropdown"></div>
+                </div>
+                <div class="nav-right flex">
+                    <div class="nav-rightinner-content flex align-center">
+                        <div class="pm-sp-dd-contianer">
+                            <button class="premium psd-btn">Premium</button>
+                            <button class="support psd-btn">Support</button>
+                            <button class="download psd-btn">Download</button>
+                        </div>
+                        <div class="divider"></div>
+                        <a href="" class="flex align-center install-app-link ">
+                            <span class="flex align-center install-link"><img class="install-app-link"
+                                    src="Assets/Icons/Install.svg" alt="">Install App</span>
+                        </a>
+                        <div class="sign-up-login-container">
+                            <button class="sign-up psd-btn">Sign up</button>
+                            <button class="log-in rounded-white-btn">Log in</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div class="container flex">
+        <div class="left-side rounded-5"></div>
+        <div class="right-side rounded-5"></div>
+    </div>
+    <div class="sign-up-bar">
+        <div class="sign-up-bar-content flex">
+            <div class="sign-up-bar-left-side">
+                <p class="sign-up-bar-heading font14">Preview of Spotify</p>
+                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <div class="sign-up-right-side">
+                <div class="sign-up-bar-btn-container">
+                    <button class="rounded-white-btn">Sign up free</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

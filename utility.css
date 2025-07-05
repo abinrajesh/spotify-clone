@@ -1,0 +1,54 @@
+.flex {
+    display: flex;
+}
+
+.jusify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.rounded-5 {
+    border-radius: 7px;
+}
+
+.psd-btn {
+    background: none;
+    color: #b3b3b3;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.install-app-link {
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rounded-white-btn {
+    background-color: white;
+    color: black;
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+}
+
+.font14 {
+    font-size: 14px;
+}
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
