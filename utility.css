@@ -46,9 +46,51 @@
 .font14 {
     font-size: 14px;
 }
+
 .p-relative {
     position: relative;
 }
+
 .p-absolute {
     position: absolute;
+}
+
+.pp-card {
+    flex-direction: column;
+    background-color: #1f1f1f;
+    border-radius: 7px;
+    padding: 15px 0 20px 25px;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.pp-card-text {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pp-card-heading {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.pp-card-description {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pp-card-btn {
+    padding: 8px 15px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.footer-link a {
+    text-decoration: none;
+}
+
+.footer-link span {
+    color: #a1a1a1;
+    font-size: 11px;
+    font-weight: 500;
 }

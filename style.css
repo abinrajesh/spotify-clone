@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     background-color: black;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -147,6 +147,99 @@ header {
 .left-side {
     background-color: #121212;
     width: 27.4vw;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+.your-libraray-container {
+    margin-bottom: 10px;
+}
+
+.library-header {
+    justify-content: space-between;
+    padding: 0px 10px 0 10px;
+}
+
+.library-title h1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.create-playlist-btn {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: none;
+    justify-content: center;
+}
+
+.create-playlist-btn img {
+    width: 15px;
+    filter: invert(90%) brightness(70%);
+
+}
+
+.create-playlist-btn:hover {
+    background-color: #1f1f1f;
+}
+
+.create-playlist-btn:hover img {
+    filter: invert(80%) brightness(100%);
+}
+
+.playlists-podcasts-container {
+    height: 48vh;
+    overflow-y: scroll;
+}
+
+.left-side-footer-content {
+    flex-direction: column;
+}
+
+.footer-links {
+    gap: 15px;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 10px 0 0 15px;
+}
+
+.cookies-link {
+    margin: 10px 15px;
+    color: #e7e6e6;
+    text-decoration: none;
+}
+
+.cookies-link span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.language-btn {
+    margin: 20px 0;
+    padding: 0 15px;
+}
+
+.language-btn>button {
+    border: 0.1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 7px 20px 7px 10px;
+}
+
+.language-btn>button>span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.language-btn>button>span>img {
+    width: 17px;
+    filter: invert(100%) brightness(200%);
+
 }
 
 .right-side {
@@ -174,6 +267,5 @@ header {
 }
 
 .sign-up-bar-content {
-    /* margin-top: 18px; */
     font-size: 16px;
 }

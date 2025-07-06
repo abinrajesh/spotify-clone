@@ -1,0 +1,29 @@
+/* Small phones (portrait) */
+@media (max-width: 480px) {
+    /* Styles for very small screens */
+}
+
+/* Phones (landscape or large portrait) */
+@media (max-width: 600px) {
+    /* Adjust font size, hide sidebar, stack items */
+}
+
+/* Tablets (portrait) */
+@media (min-width: 601px) and (max-width: 768px) {
+    /* Medium UI adjustments, smaller font, stacked layout */
+}
+
+/* Tablets (landscape) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Show more elements, adjust margins */
+}
+
+/* Small laptops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Slight layout changes or scale adjustments */
+}
+
+/* Desktops */
+@media (min-width: 1281px) {
+    /* Full layout, all features visible */
+}
